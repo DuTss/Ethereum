@@ -673,21 +673,24 @@ footer {
 
 
 .smart-contract{
-  height: 1250px;
+  height: 900px;
 }
 
 #arrowAnim {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
-  top: 150px;
-  left: 350px;
+  align-items: center;
+  bottom: 538px;
+  left: 400px;
 }
 
 .arrow {
-  width: 5vw;
-  height: 5vw;
+  width: 20px;
+  height: 20px;
   border: 2.5vw solid;
-  border-color: rgb(70, 70, 70) transparent transparent rgb(70, 70, 70);
+  border-color: black transparent transparent black;
   transform: rotate(-45deg);
 }
 
@@ -695,7 +698,7 @@ footer {
 .arrowSliding {
   position: absolute;
   -webkit-animation: slide 4s linear infinite; 
-  animation: slide 4s linear infinite;
+          animation: slide 4s linear infinite;
 }
 
 .delay1 {
@@ -712,34 +715,42 @@ footer {
 }
 
 @-webkit-keyframes slide {
-    0% { opacity:0; transform: translateX(15vw); }
-   20% { opacity:1; transform: translateX(9vw); }
-   80% { opacity:1; transform: translateX(-9vw); }
-  100% { opacity:0; transform: translateX(-15vw); }
+    100% { opacity:0; transform: translateX(15px); }	
+    80% { opacity:1; transform: translateX(9px); }	
+    20% { opacity:1; transform: translateX(-9vw); }	
+    0% { opacity:0; transform: translateX(-15vw); }	
 }
 @keyframes slide {
-    0% { opacity:0; transform: translateX(15vw); }
-   20% { opacity:1; transform: translateX(9vw); }
-   80% { opacity:1; transform: translateX(-9vw); }
-  100% { opacity:0; transform: translateX(-15vw); }
+  100% { opacity:0; transform: translateX(15vw); }	
+   80% { opacity:1; transform: translateX(9vw); }	
+   20% { opacity:1; transform: translateX(-9vw); }	
+    0% { opacity:0; transform: translateX(-15vw); }
 }
 
-
-
-
+.icon-all {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.icon-file i, .icon-user2 i, .icon-user1 i {
+  font-size: 750%;
+}
 
 
           
 
-#arrowAnim1 {
+#arrowAnim2 {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
+  bottom: 1065px;
+  right: 385px;
 }
 
 .arrow1 {
   display: flex;
-  width: 5vw;
-  height: 5vw;
+  width: 20px;
+  height: 20px;
   border: 2.5vw solid;
   border-color: black transparent transparent black;
   transform: rotate(135deg);
@@ -750,8 +761,6 @@ footer {
   position: absolute;
   -webkit-animation: slide 4s linear infinite; 
   animation: slide 4s linear infinite;
-  left: 450px;
-  top: 150px;
 }
 
 .delaybis1 {
