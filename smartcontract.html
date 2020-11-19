@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ethereum Project</title>
+    <title>Document</title>
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./ressources/style.css">
 </head>
 <body>
-
     <header>
         <div class="home-title">
             <h1>Ethereum</h1>
@@ -27,78 +28,45 @@
             <a href="#">Contact</a>
           </div>
         </nav>
-      </header>
-
-      <section>
-            <h2>Qu'est-ce qu'une blockchain ?</h2>
-
-        <div class="paragraphe1">
-            <p>A effectue une transaction vers B</p>
-        </div>
+    </header>
 
 
-        <div class="paragraphe2">
-            <p>Plusieurs transactions sont regroupées dans un bloc</p>
-        </div>
+    <section class="smart-contract">
+        <h2>Qu'est-ce qu'un Smart Contract ?</h2>        
 
-        <div class="blockchain-block">
-            <i class="fas fa-desktop"></i>
-            <i class="fas fa-long-arrow-alt-right"></i>
-            <i class="fas fa-long-arrow-alt-right"></i>
-            <i class="far check fa-check-circle"></i>
-            <i class="fas fa-long-arrow-alt-right"></i>
-            <i class="fas fa-long-arrow-alt-right"></i>
-            <i class="fas fa-cube"></i>
-        </div>
-
-        <div class="arrow-down">
-            <i class="fas down fa-long-arrow-alt-down"></i>
-            <i class="fas down fa-long-arrow-alt-down"></i>
-        </div>
-
-        <div class="paragraphe4">
-            <p>Le bloc est daté et ajouté à la chaîne de blocs à laquelle tous les utilisateurs ont accès</p>
-        </div>
-
-
-        <div class="arrow-left">
-            <i class="fas fa-network-wired"></i>
-            <i class="fas fa-long-arrow-alt-left"></i>
-            <i class="fas fa-long-arrow-alt-left"></i>
-            <i class="far check fa-check-circle"></i>
-            <i class="fas fa-long-arrow-alt-left"></i>
-            <i class="fas fa-long-arrow-alt-left"></i>
-            <i class="fab fa-connectdevelop"></i>
-        </div>
-
-
-        <div class="paragraphe3">
-            <p>Le bloc est validé par les noeuds du réseau au moyen techniques cryptograpghiques</p>
-        </div>
-
-
-        <div class="arrow-downbis">
-            <i class="fas down fa-long-arrow-alt-down"></i>
-            <i class="far check fa-check-circle"></i>
-            <i class="fas down fa-long-arrow-alt-down"></i>
-            <i class="fas fa-desktop"></i>
-        </div>
-
-
-            <div class="paragraphe5">
-                <p>B reçoit la transaction de A</p>
+        <div id="arrowAnim">
+            <div class="arrowSliding">
+            <div class="arrow"></div>
             </div>
+            <div class="arrowSliding delay1">
+            <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay2">
+            <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay3">
+            <div class="arrow"></div>
+            </div>
+        </div>
 
-
-      </section>
-
-    
-    
-    
-
+        <div id="arrowAnim2">
+            <div class="arrowSliding2">
+            <div class="arrow1"></div>
+            </div>
+            <div class="arrowSliding2 delaybis1">
+            <div class="arrow1"></div>
+            </div>
+            <div class="arrowSliding2 delaybis2">
+            <div class="arrow1"></div>
+            </div>
+            <div class="arrowSliding2 delaybis3">
+            <div class="arrow1"></div>
+            </div>
+        </div> 
+    </section>
 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-<footer id="dk-footer" class="dk-footer">
+    <footer id="dk-footer" class="dk-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-4">
@@ -185,6 +153,10 @@
                     <div class="row">
                         <div class="col-md-12 col-lg-6">
                             <div class="footer-widget footer-left-widget">
+                                <div class="section-heading">
+                                    <h3>Actif</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
                                 <ul>
                                     <li>
                                         <a href="#">Accueil</a>
@@ -216,6 +188,10 @@
                         <!-- End col -->
                         <div class="col-md-12 col-lg-6">
                             <div class="footer-widget">
+                                <div class="section-heading">
+                                    <h3>Nos Abonnés</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
                                 <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
                                 Reference site about Lorem Ipsum, giving information on its origins, as well.</p>
                                 <form action="#">
@@ -279,7 +255,7 @@
             </button>
         </div>
         <!-- End Back to top -->
-</footer>
+    </footer>
 
 
 
