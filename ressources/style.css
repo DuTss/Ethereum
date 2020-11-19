@@ -677,20 +677,17 @@ footer {
 }
 
 #arrowAnim {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  bottom: 538px;
   left: 400px;
+  bottom: 120px;
 }
 
 .arrow {
   width: 20px;
   height: 20px;
   border: 2.5vw solid;
-  border-color: black transparent transparent black;
+  border-color: rgb(151, 151, 151) transparent transparent rgb(185, 185, 185);
   transform: rotate(-45deg);
 }
 
@@ -736,15 +733,45 @@ footer {
 .icon-file i, .icon-user2 i, .icon-user1 i {
   font-size: 750%;
 }
+.icon-user1 i{
+  color: rgb(108, 108, 255);
+}
+.icon-user1 p {
+  text-align: center;
+  font-size: 120%;
+  font-weight: bold;
+  color: rgb(108, 108, 255);
+}
 
+.icon-user2 i {
+  color: rgb(255, 162, 162);
+}
 
+.icon-user2 p {
+  text-align: center;
+  font-size: 120%;
+  font-weight: bold;
+  color: rgb(255, 162, 162);
+}
+
+.icon-file i {
+  color: rgb(139, 0, 139);
+  text-align: center;
+}
+
+.icon-file p {
+  text-align: center;
+  font-size: 120%;
+  font-weight: bold;
+  color: rgb(139, 0, 139)
+}
           
 
 #arrowAnim2 {
   display: flex;
   justify-content: center;
-  bottom: 1065px;
-  right: 385px;
+  right: 400px;
+  bottom: 120px;
 }
 
 .arrow1 {
@@ -752,7 +779,7 @@ footer {
   width: 20px;
   height: 20px;
   border: 2.5vw solid;
-  border-color: black transparent transparent black;
+  border-color: rgb(185, 185, 185) transparent transparent rgb(151, 151, 151);
   transform: rotate(135deg);
 }
 
